@@ -1,7 +1,7 @@
 # Super-Sym
 Contains mathematica code for L and R matrices and option to test the closure of the GRDN algebra. 
 
-The file "Garden Algebra" contains the definitions of the L and R matrices. Below are commands that allow one to see the results stated in the paper in explicit numerical form.  Commands are given to test the anticommutator relations, and to see the entries of the holoraumy/non-closure tensor associated with the commutator equations. 
+The file "Garden Algebra" contains the mathematica code that extracts and gives the definitions of the L and R matrices. Below are commands that allow one to see the results stated in the paper in explicit numerical form.  Commands are given to test the anticommutator relations, and to see the entries of the holoraumy/non-closure tensor associated with the commutator equations. 
 
 Numerical Representation of Matrices (Replace 1 with desired matrix): 
 L[1] // Matrix Form
