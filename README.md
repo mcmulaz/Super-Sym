@@ -1,10 +1,7 @@
 # Super-Sym
 Contains mathematica code for L and R matrices and option to test the closure of the GRDN algebra. 
 
-The file "Garden Algebra" contains the definitions of the L and R matrices. Below are commands that allow one to see the explicit entries in each L and R matrix.  Commands are given to test the anticommutator relations, and to see the entries of the holoraumy tensor associated with the commutator equations. 
-
-File "Garden Algebra" contains the code that runs the verification of the garden algebra. It also has the definitions of the L and R matrices. 
-The other algebra RL + RL = delta + (non-closure) is also given. Explicit representation of any left (right) matrix is given by L[1] (R[1]) // Matrix Form (replace 1 with whichever index). 
+The file "Garden Algebra" contains the definitions of the L and R matrices. Below are commands that allow one to see the results stated in the paper in explicit numerical form.  Commands are given to test the anticommutator relations, and to see the entries of the holoraumy/non-closure tensor associated with the commutator equations. 
 
 Numerical Representation of Matrices (Replace 1 with desired matrix): 
 L[1] // Matrix Form
@@ -17,7 +14,6 @@ MatrixForm[ (L[1].R[2] - L[2].R[1] ]
 Explicit form of non-closure term:
 MatrixForm[ (R[1].L[2] + R[2].L[1] - 2IdentityMatrix[176])/2 ]
 
-Closure Relation Check for LR + LR = 2I: 
 (* =========Relation checker:L_i R_j+L_j R_i=2 \[Delta]_{ij} I=========*)
 Clear[Lmat, Rmat];
 Lmat[a_Integer] := Lmat[a] = L[a];
